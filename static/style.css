@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: #fff;
+    background-color: rgb(31, 31, 31);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem;
+}
+
+.picture {
+    max-width: 700px;
+    min-width: 250px;
+    border: 1rem solid #ffffff;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
