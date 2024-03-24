@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from config.config import get_meme
+from config import get_meme
 
 app = Flask(__name__) 
 @app.route("/")
